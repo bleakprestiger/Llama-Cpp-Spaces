@@ -144,8 +144,8 @@ static std::string fs_get_cache_directory() {
 }
 
 struct rpc_server_params {
-    std::string host        = "127.0.0.1";
-    int         port        = 50052;
+    std::string host        = "0.0.0.0";
+    int         port        = 7860;
     size_t      backend_mem = 0;
     bool        use_cache   = false;
 };
